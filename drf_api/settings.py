@@ -55,8 +55,8 @@ INSTALLED_APPS = [
     'cloudinary',
     'rest_framework',
 
-    'profiles'
-    'posts'
+    'profiles',
+    'posts',
 ]
 
 MIDDLEWARE = [
