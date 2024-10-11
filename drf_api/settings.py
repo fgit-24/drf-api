@@ -39,6 +39,8 @@ ALLOWED_HOSTS = [
     '8000-fgit24-drfapi-j76n4oj73zp.ws.codeinstitute-ide.net',
 ]
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-fgit24-drfapi-j76n4oj73zp.ws.codeinstitute-ide.net']
+
 
 # Application definition
 
