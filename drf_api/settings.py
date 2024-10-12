@@ -64,11 +64,13 @@ DEBUG = 'DEV' in os.environ
 ALLOWED_HOSTS = [
     '127.0.0.1',
     '8000-fgit24-drfapi-l4onqw41z7n.ws.codeinstitute-ide.net',
-    'MY-APP-Heroku.com'
+    'pp5-api-f-176f17fcc3bf.herokuapp.com'
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-fgit24-drfapi-l4onqw41z7n.ws.codeinstitute-ide.net']
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-fgit24-drfapi-l4onqw41z7n.ws.codeinstitute-ide.net',
+    'https://pp5-api-f-176f17fcc3bf.herokuapp.com'
+]
 
 # Application definition
 
