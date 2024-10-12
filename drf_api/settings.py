@@ -36,10 +36,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    '8000-fgit24-drfapi-j76n4oj73zp.ws.codeinstitute-ide.net',
+    '8000-fgit24-drfapi-l4onqw41z7n.ws.codeinstitute-ide.net',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-fgit24-drfapi-j76n4oj73zp.ws.codeinstitute-ide.net']
+CSRF_TRUSTED_ORIGINS = ['https://8000-fgit24-drfapi-l4onqw41z7n.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -54,6 +54,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'rest_framework',
+    'django_filters',
+    'rest_framework.authtoken',
+    'dj_rest_auth',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'dj_rest_auth.registration',
 
     'profiles',
     'posts',
@@ -61,7 +69,7 @@ INSTALLED_APPS = [
     'likes',
     'followers',
 ]
-
+SITE_ID = 1
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
