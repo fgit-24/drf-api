@@ -60,9 +60,10 @@ REST_AUTH = {
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
+    '8000-fgit24-drfapitime-0w6drzzekig.ws.codeinstitute-ide.net',
     os.environ.get('ALLOWED_HOST'),
 ]
 
@@ -92,13 +93,14 @@ INSTALLED_APPS = [
 
     'profiles',
     'posts',
+    'followers',
     'comments',
     'likes',
 ]
 
 SITE_ID = 1
 
-
+TAGGIT_CASE_INSENSITIVE = True
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
