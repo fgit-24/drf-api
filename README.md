@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![Welcome message](documentation/images/welcome_message.png)
+![Welcome message](documentation/images/api_message.png)
 
 Welcome to my RESTful API, created for my frontend React application, Time.
 
@@ -10,7 +10,7 @@ The API is live at: [Time back-end](https://time-2a8aec1abfbd.herokuapp.com/)
 
 You can explore the front-end code for this API on GitHub: [Time front-end](https://github.com/hogbergmarkus/time),
 
-And the deployed front-end can be accessed here: [Time](https://time-frontend-871b3764ee9c.herokuapp.com/)
+And the deployed front-end can be accessed here: [Time](https://pp5-api-f-176f17fcc3bf.herokuapp.com/)
 
 This API encompasses all the necessary logic that enables users to perform CRUD operations on the frontend.
 
@@ -51,11 +51,9 @@ Users can sign up to engage in activities such as uploading and downloading imag
   - [Image Storage](#image-storage)
   - [Deployment Service](#deployment-service)
 - [Bugs](#bugs)
-  - [Bug 1](#bug-1)
-  - [Bug 2](#bug-2)
+  - [Bug ](#bug)
 - [Fixed Bugs](#fixed-bugs)
-  - [Bug Fix 1](#bug-fix-1)
-  - [Bug Fix 2](#bug-fix-2)
+  - [Bug Fix 1](#bug-fix)
 - [Credits](#credits)
   - [Moments](#moments)
 
@@ -99,17 +97,17 @@ Consequently, the [backend](https://github.com/Code-Institute-Solutions/drf-api/
 
 The results can be visualized here:
 
-![Entity Relational Diagram](documentation/entity_relational_diagram/erd.png)
+![Entity Relational Diagram](documentation/entity_relational_diagram/erd_diagram.png)
 
-![Report model](documentation/images/report_model.png)
+![Report model]()
 
 ### API Endpoints
 
 Here are the API endpoints utilized by my API:
 
-![API-endpoints](documentation/images/api_endpoints.png)
+![API-endpoints]()
 
-![Reports endpoint](documentation/images/reports_endpoint.png)
+![Reports endpoint]()
 
 ## Testing
 
@@ -117,17 +115,17 @@ Here are the API endpoints utilized by my API:
 
 I have developed approximately 50 automated tests for my views, all of which have passed.
 
-- Album view tests can be found here: [Album view tests](https://github.com/hogbergmarkus/time-backend/blob/main/albums/tests.py)
+- Album view tests can be found here: [Album view tests]()
 
-- Comment view tests are available here: [Comments view tests](https://github.com/hogbergmarkus/time-backend/blob/main/comments/tests.py)
+- Comment view tests are available here: [Comments view tests]()
 
-- Like view tests can be accessed here: [Likes view tests](https://github.com/hogbergmarkus/time-backend/blob/main/likes/tests.py)
+- Like view tests can be accessed here: [Likes view tests]()
 
-- Post view tests can be found here: [Posts view tests](https://github.com/hogbergmarkus/time-backend/blob/main/posts/tests.py)
+- Post view tests can be found here: [Posts view tests]()
 
-- Profile view tests are available here: [Profile view tests](https://github.com/hogbergmarkus/time-backend/blob/main/profiles/tests.py)
+- Profile view tests are available here: [Profile view tests]()
 
-- Report view tests can be accessed here: [Report view tests](https://github.com/hogbergmarkus/time-backend/blob/main/reports/tests.py)
+- Report view tests can be accessed here: [Report view tests]()
 
 ### Validation
 
@@ -524,9 +522,7 @@ The project was deployed using [Heroku](https://www.heroku.com/).
 
 ### Fixed Bugs
 
-### Bug Fix 1
-
-### Bug Fix 2
+### Bug Fix 
 
 
 ## Credits
